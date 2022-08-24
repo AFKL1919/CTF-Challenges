@@ -1,0 +1,9 @@
+version: "3"
+services:
+  imagsess:
+    build: 
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "18080:80"
